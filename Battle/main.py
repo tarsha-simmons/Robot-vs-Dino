@@ -1,4 +1,3 @@
-
 #(5 points): As a developer, I want to make at least 7 commits with good, descriptive messages.
 #5 points): As a developer, I want to make a class for each of the following: Robot, Dinosaur, Weapon, Battlefield.
 #(10 points): As a developer, I want a Dinosaur to have a name, health, and attack power.
@@ -10,3 +9,7 @@
 #Bonus points:
 #(5 points): As a developer, I want to choose from a list of 3 possible weapons before a robot makes an attack.
 #(5 points): As a developer, I want to create Fleet and Herd classes, allowing for a list of 3 Robots to battle against a list of 3 Dinosaurs.
+
+from battlefield import Battlefield
+from robot import Robot 
+from dino import Dino
