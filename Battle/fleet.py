@@ -7,6 +7,7 @@ class Fleet:
         self.create_fleet(self)
 
     def create_fleet(self):
-        robot_one = Robot("Optimus Prime")
-        robot_two = Robot("Bumblebee")
-        robot_three = Robot("Megatron")
+        robot_one = Robot("Optimus Prime, 200, ion blast")
+        robot_two = Robot("Bumblebee, 100, plasma cannon")
+        robot_three = Robot("Megatron, 100, megablast")
+        return[robot_one,robot_two,robot_three]

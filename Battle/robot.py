@@ -6,6 +6,7 @@ class Robot:
         self.active_weapon = 'ion blaster, sword, hydra cannon'
 
     
-    def attack(self,dinosaur):
-        dinosaur.health = dinosaur.health - self.active_weapon
-        print(dinosaur.health)
+    def attack(self,dino):
+        dino.damage = dino.health - self.active_weapon
+        dino.health = dino.damage
+        print(f'{dino.damage} is dino Health!')

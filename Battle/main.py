@@ -1,4 +1,3 @@
-#(5 points): As a developer, I want to make at least 7 commits with good, descriptive messages.
 #5 points): As a developer, I want to make a class for each of the following: Robot, Dinosaur, Weapon, Battlefield.
 #(10 points): As a developer, I want a Dinosaur to have a name, health, and attack power.
 #(10 points): As a developer, I want a Robot to have a name, health, and active_weapon.
