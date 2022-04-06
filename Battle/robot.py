@@ -1,7 +1,7 @@
 class Robot:
 
     def __init__(self,health,active_weapon):
-        self.name = 'Optimus'
+        self.name = name
         self.health = 150
         self.active_weapon =['ion blaster,50']
 
