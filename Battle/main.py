@@ -13,5 +13,3 @@ from battlefield import Battlefield
 
 battlefield = Battlefield()
 battlefield.run_game()
-from robot import Robot 
-from dino import Dino
